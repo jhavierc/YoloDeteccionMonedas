@@ -1,0 +1,4 @@
+split,images,labels,emparejados,img_sin_label,label_sin_img
+train,31,31,31,0,0
+valid,4,4,4,0,0
+test,4,4,4,0,0

@@ -1,0 +1,34 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.ipynb_checkpoints/
+
+# uv
+uv.lock
+
+# OS
+.DS_Store
+
+# Modelos pesados (versionar solo el final)
+runs/
+*.pt
+*.onnx
+*.tflite
+!model/.gitkeep
+
+# Reportes generados
+reports/*.png
+reports/*.csv
+
+# IDE
+.vscode/
+.idea/
+
+# Node / Ionic (cuando aparezca la app)
+app/node_modules/
+app/.angular/
+app/www/
+app/dist/

@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/ccepeda/.es-wrapper/bin/uv --version)",
+      "Read(//Users/ccepeda/.es-wrapper/bin/**)",
+      "Bash(/Users/ccepeda/.es-wrapper/bin/uv --help)",
+      "Read(//Users/ccepeda/.es-wrapper/**)",
+      "Bash(.venv/bin/pip list *)",
+      "Bash(/Users/ccepeda/Documents/Personales/Maestria/SistemaRecomendacion/.venv/bin/python -c ' *)",
+      "Bash(.venv/bin/python -m pip install --retries 5 --timeout 120 torch torchvision ultralytics opencv-python)",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(.venv/bin/jupyter nbconvert *)",
+      "Bash(PYTORCH_ENABLE_MPS_FALLBACK=1 .venv/bin/jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=3600 /Users/ccepeda/Documents/Personales/Maestria/SistemaRecomendacion/notebooks/03_train.ipynb)"
+    ]
+  }
+}

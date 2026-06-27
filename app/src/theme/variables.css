@@ -1,0 +1,40 @@
+:root {
+  /* ── Palette ── */
+  --cd-bg-primary:    #080C16;
+  --cd-bg-secondary:  #0F1626;
+  --cd-surface:       rgba(255, 255, 255, 0.06);
+  --cd-surface-hover: rgba(255, 255, 255, 0.10);
+  --cd-border:        rgba(255, 255, 255, 0.09);
+
+  --cd-gold-100: #FFD97D;
+  --cd-gold-200: #F0B429;
+  --cd-gold-300: #C87000;
+  --cd-green:    #22C55E;
+  --cd-blue:     #3B82F6;
+  --cd-red:      #EF4444;
+
+  --cd-text-primary:   #FFFFFF;
+  --cd-text-secondary: rgba(255, 255, 255, 0.60);
+  --cd-text-muted:     rgba(255, 255, 255, 0.32);
+
+  /* ── Coin colors ── */
+  --cd-coin-50:   #CD7F32;
+  --cd-coin-100:  #A8B0C0;
+  --cd-coin-200:  #C0AA40;
+  --cd-coin-500:  #F0B429;
+  --cd-coin-1000: #FFD97D;
+
+  /* ── Radii ── */
+  --cd-radius-sm: 10px;
+  --cd-radius-md: 16px;
+  --cd-radius-lg: 22px;
+
+  /* ── Ionic overrides ── */
+  --ion-background-color:         var(--cd-bg-primary);
+  --ion-text-color:               var(--cd-text-primary);
+  --ion-color-primary:            var(--cd-gold-200);
+  --ion-color-primary-contrast:   #080C16;
+  --ion-toolbar-background:       var(--cd-bg-primary);
+  --ion-item-background:          transparent;
+  --ion-card-background:          var(--cd-surface);
+}

@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+nc: 5
+names:
+- '100'
+- '1000'
+- '200'
+- '50'
+- '500'
+roboflow:
+  workspace: davids-workspace
+  project: modenas
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/davids-workspace/modenas/dataset/2

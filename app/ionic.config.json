@@ -1,0 +1,5 @@
+{
+  "name": "CoinDetect",
+  "integrations": { "capacitor": {} },
+  "type": "react-vite"
+}
